@@ -1,0 +1,28 @@
+body{
+	background-color: black;
+}
+
+h1{
+	border: 2px solid blue;
+	padding: 10px;
+}
+th{
+	color:white;
+}
+
+table{
+	border: solid blue;
+	float: right;
+} 
+
+p{
+	color: yellow;
+}
+
+#date{
+	color:red;
+}
+
+img{
+	float: ;
+}

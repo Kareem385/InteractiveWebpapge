@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head><link rel = "stylesheet" type = "text/css" href = "simplee.css" >
+
+</head>
+
+<title>Wonderful</title>
+<body>
+
+<p id = "date"></p>
+
+
+<script>
+
+
+var d = new Date();
+document.getElementById("date").innerHTML = d;
+
+
+	function jokeanswer(){
+		document.getElementById("joke").innerHTML = "They Planet";
+	}
+
+	function question(){
+		var quest = prompt("How many squares are in this photo?");
+		//document.getElementById("pic").src = "http://krexy.com/wp-content/uploads/2012/08/How-Many-Squares-Answer.jpg";
+		if(quest == 40){
+			document.getElementById("nice").innerHTML = "WOW! I am impressed. Even I got this question wrong.";
+		}
+		else{
+			document.getElementById("nice").innerHTML = "Sorry, the correct answer is 40";
+		}
+	}
+
+</script>
+
+
+
+
+	<a href = "http://www.booksbyjoect.com"> If you care about books....... </a>
+	<h1 style = "text-align: center; color: white"> Welcome to the wonderful website where wonderful things take place. </h1>
+	
+
+
+<img src =  "http://img2.wikia.nocookie.net/__cb20120121123338/spongebob/images/c/c6/Sungerbob_12(12).gif" />
+
+
+
+
+<table border= "2" CELLPADDING="5" CELLSPACEING= "2" align= "center">
+<th colspan = "2"><BR>Some Happy Images </th>
+<tr>
+	<td>  <img src = "http://kleenradio.com/wp-content/uploads/2013/12/happy-cat_2818143.jpg" width = "300px" height = "300px" /> </td>
+	<td> <img src = "http://i.huffpost.com/gen/1688700/images/o-HAPPY-DOG-DAY-OF-HAPPINESS-facebook.jpg" width = "300px" height = "300px" </td>
+</tr>
+
+<tr>
+	<td> <img src= "http://www.film.com/wp-content/uploads/2011/11/happy-feet.jpg" width = "300px" height = "300px" /> </td>
+	<td> <img src = "http://www.ballooncreatures.com/Happy%20Man.gif" width = "300px" height = "300px" </td>
+</tr>
+</table> 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3jRiRHwL7xM" frameborder="0" allowfullscreen></iframe>
+
+
+<button onClick = "jokeanswer()">How does the NASA organzie their company parties? </button>
+<p id = "joke"></p>
+
+<button onClick = "question()"> I have a question? Look at the picture below. </button>
+<p id = "nice"></p>
+
+
+<img src = "http://krexy.com/wp-content/uploads/2012/08/How-Many-Squares-Answer.jpg"/>
+
+</body>
+</html>
